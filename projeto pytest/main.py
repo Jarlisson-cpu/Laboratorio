@@ -5,7 +5,6 @@ def calcular_desconto(valor, cupom):
 
     valor_de_desconto = valor * cupom / 100
     return valor - valor_de_desconto
-    calcular_desconto(100, 150)
     
 '''Função 2'''
 def adicionar_ao_estoque(estoque, produto, quantidade):
